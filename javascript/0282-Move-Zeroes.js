@@ -17,7 +17,6 @@ var moveZeroes = function (nums) {
     if (nums[pointer] === 0 && zeroPointer === null) {
       zeroPointer = pointer;
     }
-
     pointer++;
   }
 };
